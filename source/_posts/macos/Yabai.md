@@ -8,7 +8,7 @@ date: 2023-06-09 13:08:51
 # 安装
 GitHub 地址： https://github.com/koekeishiya/yabai
 ## 1. 关闭 SIP
-[[macOS#关闭 SIP]]
+[[macOS#关闭 SIP|macOS > 关闭 SIP]]
 ## 2. 安装 yabai
 ```bash
 brew install koekeishiya/formulae/yabai
