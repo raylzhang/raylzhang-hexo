@@ -1,7 +1,9 @@
 ---
 title: Yabai
-date: 2023-06-09 13:08:51
 tags: []
+categories:
+  - macos
+date: 2023-06-09 13:08:51
 ---
 # 安装
 GitHub 地址： https://github.com/koekeishiya/yabai
