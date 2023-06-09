@@ -116,3 +116,6 @@ marked:
 auto_category:
     enable: true
     depth:
+
+# hexo-backlink插件配置
+backlink: true

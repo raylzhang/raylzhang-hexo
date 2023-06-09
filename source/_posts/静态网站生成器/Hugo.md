@@ -1,10 +1,11 @@
 ---
 title: Hugo
-tags: [todo, obsidian]
+tags:
+  - todo
 categories:
-  - hugo
+  - 静态网站生成器
+ref: 'https://www.bilibili.com/video/BV1mg411b7Tu'
 date: 2023-06-02 01:12:18
-ref: https://www.bilibili.com/video/BV1mg411b7Tu
 ---
 
 # 安装

@@ -669,6 +669,15 @@
     "hexo-front-matter" "^2.0.0"
     "hexo-fs" "^3.1.0"
 
+"hexo-backlink@^0.1.4":
+  "integrity" "sha512-37MJ3m8L+oKvLZqycIWqIBPIlPVac96YeAICXzRMchTsV7x6xaOr+675Iyz7DEa4LiiipNijhRiDrCwhHxE+kw=="
+  "resolved" "https://registry.npmjs.org/hexo-backlink/-/hexo-backlink-0.1.4.tgz"
+  "version" "0.1.4"
+  dependencies:
+    "hexo-log" "^3.0.0"
+    "husky" "^7.0.4"
+    "jira-smart-commit" "^1.1.2"
+
 "hexo-cli@^4.3.0":
   "integrity" "sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg=="
   "resolved" "https://registry.npmjs.org/hexo-cli/-/hexo-cli-4.3.1.tgz"
@@ -918,6 +927,11 @@
     "agent-base" "6"
     "debug" "4"
 
+"husky@^7.0.4":
+  "integrity" "sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ=="
+  "resolved" "https://registry.npmjs.org/husky/-/husky-7.0.4.tgz"
+  "version" "7.0.4"
+
 "iconv-lite@0.6.3":
   "integrity" "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"
@@ -1026,6 +1040,11 @@
     "chalk" "^4.0.2"
     "filelist" "^1.0.4"
     "minimatch" "^3.1.2"
+
+"jira-smart-commit@^1.1.2":
+  "integrity" "sha512-brDZtvgk/WI/PYV72MbovCvTIzQnSGxaKzUZp9I58H6ENg6tTz1d7fDw6lmDMRDO6S86d5xu8v7a1FkRWzjzTw=="
+  "resolved" "https://registry.npmjs.org/jira-smart-commit/-/jira-smart-commit-1.1.2.tgz"
+  "version" "1.1.2"
 
 "js-stringify@^1.0.2":
   "integrity" "sha512-rtS5ATOo2Q5k1G+DADISilDA6lv79zIiwFd6CcjuIxGKLFm5C+RLImRscVap9k55i+MOZwgliw+NejvkLuGD5g=="
