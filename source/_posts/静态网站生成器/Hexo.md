@@ -1,6 +1,6 @@
 ---
 title: Hexo
-tags: []
+tags: [site]
 categories:
   - 静态网站生成器
 abbrlink: b132932

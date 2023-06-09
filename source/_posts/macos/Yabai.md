@@ -52,7 +52,7 @@ skhd 是 Yabai 作者自己写的一个系统快捷键映射程序。
 brew install koekeishiya/formulae/skhd
 ```
 ## 7. 添加配置文件
-[[Yabai#配置]]
+[[Yabai#配置|Yabai 配置]]
 ## 8. 启动
 ```bash
 yabai --start-service
