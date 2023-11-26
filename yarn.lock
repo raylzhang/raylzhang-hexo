@@ -151,6 +151,13 @@
   "resolved" "https://registry.npmjs.org/asynckit/-/asynckit-0.4.0.tgz"
   "version" "0.4.0"
 
+"axios@^0.24.0":
+  "integrity" "sha512-Q6cWsys88HoPgAaFAVUb0WpPk0O8iTeisR9IMqy9G8AbO4NlpVknrnQS03zzF9PGAWgO3cgletO3VjV/P7VztA=="
+  "resolved" "https://registry.npmjs.org/axios/-/axios-0.24.0.tgz"
+  "version" "0.24.0"
+  dependencies:
+    "follow-redirects" "^1.14.4"
+
 "babel-walk@3.0.0-canary-5":
   "integrity" "sha512-GAwkz0AihzY5bkwIY5QDR+LvsRQgB/B+1foMPvi0FZPMl5fjD7ICiznUiBdLYMH1QYe6vqu4gWYytZOccLouFw=="
   "resolved" "https://registry.npmjs.org/babel-walk/-/babel-walk-3.0.0-canary-5.tgz"
@@ -574,6 +581,11 @@
     "statuses" "~1.5.0"
     "unpipe" "~1.0.0"
 
+"follow-redirects@^1.14.4":
+  "integrity" "sha512-VQLG33o04KaQ8uYi2tVNbdrWp1QWxNNea+nmIB4EVM28v0hmP17z7aG1+wAkNzVq4KeXTq3221ye5qTJP91JwA=="
+  "resolved" "https://registry.npmjs.org/follow-redirects/-/follow-redirects-1.15.2.tgz"
+  "version" "1.15.2"
+
 "form-data@^4.0.0":
   "integrity" "sha512-ETEklSGi5t0QMZuiXoA/Q6vcnxcLQP5vdugSpuAyi6SVGi2clPPp+xgEhuMaHC+zGgn31Kd235W35f7Hykkaww=="
   "resolved" "https://registry.npmjs.org/form-data/-/form-data-4.0.0.tgz"
@@ -661,6 +673,14 @@
   dependencies:
     "function-bind" "^1.1.1"
 
+"hexo-abbrlink@^2.2.1":
+  "integrity" "sha512-yvazN7bbrIb7p8QU3nJ/8fbDmir1mFroYvUYcJz5xpc6DtszKggschmqZg6WNUdjhDBFyDwksrIUfwQnw0OOuA=="
+  "resolved" "https://registry.npmjs.org/hexo-abbrlink/-/hexo-abbrlink-2.2.1.tgz"
+  "version" "2.2.1"
+  dependencies:
+    "hexo-front-matter" "^1.0.0"
+    "hexo-fs" "^3.1.0"
+
 "hexo-auto-category@^0.2.1":
   "integrity" "sha512-kIHa+0XV7CZHlcFV9Jg8FJdngLqCBtubSEcXveZMr5D6wftE+Zg3kv4R+xi+nE7wAfDSRW37TUqfgFusrf92Yw=="
   "resolved" "https://registry.npmmirror.com/hexo-auto-category/-/hexo-auto-category-0.2.1.tgz"
@@ -668,15 +688,6 @@
   dependencies:
     "hexo-front-matter" "^2.0.0"
     "hexo-fs" "^3.1.0"
-
-"hexo-backlink@^0.1.4":
-  "integrity" "sha512-37MJ3m8L+oKvLZqycIWqIBPIlPVac96YeAICXzRMchTsV7x6xaOr+675Iyz7DEa4LiiipNijhRiDrCwhHxE+kw=="
-  "resolved" "https://registry.npmjs.org/hexo-backlink/-/hexo-backlink-0.1.4.tgz"
-  "version" "0.1.4"
-  dependencies:
-    "hexo-log" "^3.0.0"
-    "husky" "^7.0.4"
-    "jira-smart-commit" "^1.1.2"
 
 "hexo-cli@^4.3.0":
   "integrity" "sha512-nYe7yJhXT7MwlDEpIAjneMfz0wnWTdIhRv+cVW2OPTw8JtG2X+8Y/sYhPDvQz/ZqjFRZ4qgiKFXN5orFJ/u1vg=="
@@ -693,6 +704,13 @@
     "picocolors" "^1.0.0"
     "resolve" "^1.20.0"
     "tildify" "^2.0.0"
+
+"hexo-front-matter@^1.0.0":
+  "integrity" "sha512-Hn8IIzgWWnxYTekrjnA0rxwWMoQHifyrxKMqVibmFaRKf4AQ2V6Xo13Jiso6CDwYfS+OdA41QS5DG1Y+QXA5gw=="
+  "resolved" "https://registry.npmjs.org/hexo-front-matter/-/hexo-front-matter-1.0.0.tgz"
+  "version" "1.0.0"
+  dependencies:
+    "js-yaml" "^3.13.1"
 
 "hexo-front-matter@^2.0.0":
   "integrity" "sha512-IR3tjAyK2Ga/0a/WDAoNy5+n3ju2/mkuAsCDEeGgGLf5+7kkiOkkG/FrnueuYgz0h2MPfWDLBiDsSTCmB0sLCA=="
@@ -762,6 +780,13 @@
   "version" "1.0.0"
   dependencies:
     "sprintf-js" "^1.0.3"
+
+"hexo-link-obsidian@^1.1.5":
+  "integrity" "sha512-eEUJ+WnStxp5Bbyu4BR80lLbY52NM2iwX/5fMR67D0RB/rPKVBeyfV54Ry31eCoOvdipxx/ssSLDLZwjQmUlYg=="
+  "resolved" "https://registry.npmjs.org/hexo-link-obsidian/-/hexo-link-obsidian-1.1.5.tgz"
+  "version" "1.1.5"
+  dependencies:
+    "axios" "^0.24.0"
 
 "hexo-log@^3.0.0", "hexo-log@^3.2.0":
   "integrity" "sha512-fk7jOW3hvKiAv4Q/d8UxaQlARwcv+5KjGcnxexUrqBqyWbMCLmw7jhMHTSRLNNQpaoTlF5ff+kQkPi4yhp9iag=="
@@ -927,11 +952,6 @@
     "agent-base" "6"
     "debug" "4"
 
-"husky@^7.0.4":
-  "integrity" "sha512-vbaCKN2QLtP/vD4yvs6iz6hBEo6wkSzs8HpRah1Z6aGmF2KW5PdYuAd7uX5a+OyBZHBhd+TFLqgjUgytQr4RvQ=="
-  "resolved" "https://registry.npmjs.org/husky/-/husky-7.0.4.tgz"
-  "version" "7.0.4"
-
 "iconv-lite@0.6.3":
   "integrity" "sha512-4fCk79wshMdzMp2rH06qWrJE4iolqLhCUH+OiuIgU++RB0+94NlDL81atO7GX55uUKueo0txHNtvEyI6D7WdMw=="
   "resolved" "https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.6.3.tgz"
@@ -1040,11 +1060,6 @@
     "chalk" "^4.0.2"
     "filelist" "^1.0.4"
     "minimatch" "^3.1.2"
-
-"jira-smart-commit@^1.1.2":
-  "integrity" "sha512-brDZtvgk/WI/PYV72MbovCvTIzQnSGxaKzUZp9I58H6ENg6tTz1d7fDw6lmDMRDO6S86d5xu8v7a1FkRWzjzTw=="
-  "resolved" "https://registry.npmjs.org/jira-smart-commit/-/jira-smart-commit-1.1.2.tgz"
-  "version" "1.1.2"
 
 "js-stringify@^1.0.2":
   "integrity" "sha512-rtS5ATOo2Q5k1G+DADISilDA6lv79zIiwFd6CcjuIxGKLFm5C+RLImRscVap9k55i+MOZwgliw+NejvkLuGD5g=="

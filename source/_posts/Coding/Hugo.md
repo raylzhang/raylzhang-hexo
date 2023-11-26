@@ -1,11 +1,14 @@
 ---
 title: Hugo
-tags: [site, todo]
+tags:
+  - 建站
+  - TODO
 categories:
-  - 静态网站生成器
-ref: https://www.bilibili.com/video/BV1mg411b7Tu
+  - Coding
+abbrlink: da6f84dc
 ate: 2023-06-02 01:12:18
 ---
+> ref: https://www.bilibili.com/video/BV1mg411b7Tu
 
 # 安装
 ```bash
@@ -34,7 +37,7 @@ git clone git@github.com:raylzhang/raylzhang.github.io.git
 # 软链接至hugo发布目录
 cd raylzhang
 rm -rf public
-ln -s /Users/raylzhang/prj-ray/raylzhang.github.io /Users/raylzhang/prj-ray/raylzhang/public
+ln -s /Users/raylzhang/prj-ray/raylzhang.github.io /Users/raylzhang/prj-ray/raylzhang-hugo/public
 
 # 编译并发布
 hugo
@@ -44,26 +47,11 @@ git commit -m "first commit"
 git push
 ```
 
-# 部署 Vercel
-当我们提交代码至 Github 上后，Vercel 会自动编译，因此我们只需要配置一次即可。
+[[Github Pages#域名绑定]]
 
-## Github Pages 部署（推荐）
-直接 `import` 即可。
-
-## Hugo 源码部署
-![](https://static.raylzhang.com/img/202306070225740.png)
-
-注意事项：
-1. `public` 文件夹添加到 `.gitignore` 中（不上传 `public` 文件夹）
-2. 删除 `themes/even` 中的 `.git` 文件
-
-# 绑定域名
-## 绑定 Github Pages
-1. 域名解析添加 `A` 记录，主机记录为 `@`，值为 `ping raylzhang.github.io`
-2. Github 根目录添加文件 `CNAME`，值为域名，例如 `raylzhang.com`
-
-## 绑定 Vercel
-![](https://static.raylzhang.com/img/202306070225741.png)
+# Vercel 部署
+[[Vercel#Hugo 源码部署]]
+[[Vercel#绑定域名]]
 
 # 搜索引擎收录
 常更新，尽量保持独创和高质量，搜索引擎会更快收录你的网站。
@@ -101,11 +89,11 @@ git push
 	![](https://static.raylzhang.com/img/202306070225748.png)
  4. 进行“普通收录”
 	![](https://static.raylzhang.com/img/202306070225749.png)
- ## Sogou
+## Sogou
 不支持 sitemap 形式，需要手动提交 url 列表。
- ## Bing
- TODO
- ## 查询收录信息
+## Bing
+TODO
+## 查询收录信息
 在搜索引擎输入：`site:raylzhang.com`，点击搜索，就会显示是否收录成功。
 
 # 广告联盟

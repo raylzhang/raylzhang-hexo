@@ -1,19 +1,21 @@
 ---
 title: Yabai
-tags: [mac]
+tags:
+  - MacOS
 categories:
-  - macos
+  - Coding
+abbrlink: '73605695'
 date: 2023-06-09 13:08:51
 ---
 # 安装
 GitHub 地址： https://github.com/koekeishiya/yabai
 ## 1. 关闭 SIP
-[[macOS#关闭 SIP|macOS > 关闭 SIP]]
+[[MacOS相关问题#关闭 SIP]]
 ## 2. 安装 yabai
 ```bash
 brew install koekeishiya/formulae/yabai
-```
 ## 3. 赋予 Yabai root 权限
+```
 官方文档：[Configure scripting addition]( https://github.com/koekeishiya/yabai/wiki/Installing-yabai- (latest-release))
 1. 获取 Yabai hash 值
 	```bash
@@ -45,6 +47,10 @@ sudo nvram boot-args=-arm64e_preview_abi
 sudo yabai --load-sa
 ```
 确保执行后没有任何错误。
+
+> [!NOTE] 
+> 升级或重新安装 yabai，一定要执行此步骤，不然很多脚本无法执行。
+
 ## 6. 安装 skhd
 Github 地址： https://github.com/koekeishiya/skhd
 skhd 是 Yabai 作者自己写的一个系统快捷键映射程序。
@@ -52,7 +58,7 @@ skhd 是 Yabai 作者自己写的一个系统快捷键映射程序。
 brew install koekeishiya/formulae/skhd
 ```
 ## 7. 添加配置文件
-[[Yabai#配置|Yabai 配置]]
+[[Yabai#配置]]
 ## 8. 启动
 ```bash
 yabai --start-service
