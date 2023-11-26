@@ -16,14 +16,14 @@ date: 2023-06-10 00:34:43
 直接 `import` 即可。
 
 ## Hugo 源码部署
-![](https://static.raylzhang.com/img/202306070225740.png)
+![](https://static.raylzhang.top/img/202306070225740.png)
 
 注意事项：
 1. `public` 文件夹添加到 `.gitignore` 中（不上传 `public` 文件夹）
 2. 删除 `themes/even` 中的 `.git` 文件
 
 # 绑定域名 
-![](https://static.raylzhang.com/img/202306070225741.png)
+![](https://static.raylzhang.top/img/202306070225741.png)
 
 # 解决国内无法访问问题
 官方说明：

@@ -168,7 +168,7 @@ mime ^text,  label pager  = "$PAGER" -- "$@"
 
 ranger 的一些常用命令：
 
-![Pasted image 20221124202013](https://static.raylzhang.com/img/202307062136711.png)
+![Pasted image 20221124202013](https://static.raylzhang.top/img/202307062136711.png)
 
 # 快捷键
 ranger 中有按键和命令两种操作方式，按键是直接键入键盘上的键完成某个操作，命令则需前输入 `:`，然后输入相应的命令。  

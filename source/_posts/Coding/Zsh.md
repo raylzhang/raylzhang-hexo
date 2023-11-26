@@ -162,7 +162,7 @@ source $ZSH/oh-my-zsh.sh
 	```
 
 Mac 下载主题会出现异常：
-![image](https://static.raylzhang.com/img/202307061823434.png)
+![image](https://static.raylzhang.top/img/202307061823434.png)
 
 这是由于使用了更新版本的 openssl 导致的，可以安装一个老版本的 openssl 解决问题：
 ```bash
