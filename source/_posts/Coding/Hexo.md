@@ -8,9 +8,6 @@ categories:
 abbrlink: b132932
 date: 2023-06-07 15:58:48
 ---
-
-> ref: https://hexo.io/zh-cn/docs
-
 # 安装
 ```shell
 # 安装
@@ -71,3 +68,6 @@ https://hexo.io/plugins/
 - 和 [[Hugo#发布Github Pages]] 相同
 - [[Vercel#部署]] 
 - [[Github Pages#域名绑定]]
+
+# Ref
+- [文档 | Hexo](https://hexo.io/zh-cn/docs)
